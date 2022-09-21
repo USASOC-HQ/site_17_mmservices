@@ -2,14 +2,6 @@
 /// <reference path="../../x_g_inte_site_17/index.d.ts" />
 /// <reference path="../table/index.d.ts" />
 declare namespace x_44813_mmservices {
-    interface IAvailabilityRange {
-        start: GlideTime;
-        end: GlideTime;
-    }
-    interface IAjaxAvailabilityRange {
-        start: string;
-        end: string;
-    }
     interface ISite17MMServicesUtil extends $$snClass.ICustomClassBase<ISite17MMServicesUtil, "Site17MMServicesUtil"> {
         /**
          * Gets the number of days the default minimum lead time for appointments.
